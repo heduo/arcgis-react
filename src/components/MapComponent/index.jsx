@@ -212,7 +212,7 @@ function MapComponent() {
           const view = new MapView({
             container: mapRef.current,
             map: map,
-            center: [151.2099, -33.865143],
+            center: [151.2099, -33.865143], // Sydney
             zoom: 10,
           });
 
