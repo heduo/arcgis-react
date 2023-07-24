@@ -233,7 +233,6 @@ function MapComponent() {
                 // Once updating property is false, then the layerView is rendered
                 setLayerRendered(true);
                 setLayerView(layerView);
-                // Perform your operations here.
               }
             });
           });
