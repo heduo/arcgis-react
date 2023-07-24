@@ -241,7 +241,9 @@ function MapComponent() {
   }, []);
   return (
     <>
+      {/* map div */}
       <div className="mapDiv" ref={mapRef}></div>
+      {/* if feature layer rendered, render filters div */}
       {layerRendered && (
         <div className="filterDiv container card">
           <div className="card-body">

@@ -3,16 +3,12 @@
 This repo demonstrates how to use [@arcgis/core](https://www.npmjs.com/package/@arcgis/core) ES modules with [React](https://reactjs.org/).
 
 ## Get Started
+- Make sure **node.js** is installed on your machine
+- Run `git checkout master`
+- Run `npm install` and then start adding modules.
+- Run `npm run dev` to start development server locally.
+- Run `npm run preview` previewing the production build locally.
 
-**Step 1** - Run `npm install` and then start adding modules.
-
-**Step 2** Configure CSS.
-
-_index.css_
-
-```css
-@import "https://js.arcgis.com/4.27/@arcgis/core/assets/esri/themes/light/main.css";
-```
 
 For additional information, see the [Build with ES modules](https://developers.arcgis.com/javascript/latest/es-modules/) Guide topic in the SDK.
 
@@ -23,7 +19,7 @@ For a list of all available `npm` commands see the scripts in `package.json`.
 This project was bootstrapped with [Vite](https://vitejs.dev/).
 
 ## Learn More
-s
+
 You can learn more in the [Vite guides](https://vitejs.dev/guide/).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
